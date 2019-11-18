@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", async () =>{
     let main = document.getElementById("main");
     projects.forEach(project=>{
         main.innerHTML+= `
-<a href="${project.repo}">
-    <div class="tile">
-        <h1>${project.name}</h1>
-        <img src="${project.screenshot}" class="project-sc" alt="Project Screenshot"/>
-        <p>${project.desc}</p>
-    </div>
-</a>`
+        <div class="tile">
+            <a href="${project.repo}">
+                <h1>${project.name}</h1>
+                <img src="${project.screenshot}" class="project-sc" alt="Project Screenshot"/>
+                <p>${project.desc}</p>
+            </a>
+        </div>`
     })
 });
