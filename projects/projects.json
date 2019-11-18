@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Mixer",
+    "desc": "This is a small little plugin I made for Mixer's interactive streaming for Minecraft. Mostly made for a friend of mine.",
+    "repo": "https://github.com/funniray/Mixer",
+    "screenshot": "mixer.jpg"
+  },
+  {
+    "name": "Weekly Report",
+    "desc": "This is a little Angular website I made to track my hours for internships.",
+    "repo": "https://github.com/funniray/AngularForm",
+    "screenshot": "weekly.png"
+  }
+]

@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", () =>{
     const toFetch = Array.from(document.getElementsByClassName("headerThing"));
 
     toFetch.forEach(async (element) => {
-        const res = await (getHttp("header/" + element.id + ".html"));
+        const baseURL = window.location.href.includes("localhost") ? "/portfolioHtml/header/" : "/header/";
+        const res = await (getHttp(baseURL + element.id + ".html"));
         element.innerHTML = res.responseText;
         if (element.id === "header") {
             loadNavbar();
