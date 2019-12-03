@@ -16,6 +16,7 @@ class NavbarItem {
 
 const items = [
     new NavbarItem('/projects/','Projects'),
+    new NavbarItem('/demo/', 'Demos'),
     new NavbarItem('/about/', 'About')
 ];
 

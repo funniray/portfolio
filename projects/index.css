@@ -8,24 +8,46 @@
     text-decoration: none;
 }
 
+.tile {
+    background-color: #fdfdfd;
+    border: 1px lightgray solid;
+}
+
+.christmas {
+    background: repeating-linear-gradient(-45deg, #ff8990 0px, #ff8990 20px, transparent 20px, transparent 40px), repeating-linear-gradient(45deg, #6bcd9b 0px, #6bcd9b 20px, transparent 20px, transparent 40px), white;
+    border: 1px #ff8990 solid;
+}
+
+#main :hover {
+    background: white;
+}
+
+.bow {
+    width: 200px;
+    position: absolute;
+    top: -71px;
+    left: 75px;
+}
+
 #main {
     text-align: center;
 }
 
 .tile {
+    position: relative;
     vertical-align: top;
     text-align: left;
     width: 350px;
     height: 300px;
-    margin: 50px;
+    margin: 60px;
     padding: 10px;
     display: inline-block;
-    border: 1px black solid;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .project-sc {
     object-fit: cover;
     width: 90%;
-    height: 25%;
+    height: 30%;
 }

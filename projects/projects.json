@@ -1,14 +1,23 @@
 [
   {
+    "id": "mixer",
     "name": "Mixer Minecraft",
     "desc": "This is a small little plugin I made for Mixer's interactive streaming for Minecraft. Mostly made for a friend of mine.",
     "repo": "https://github.com/funniray/Mixer",
     "screenshot": "mixer.jpg"
   },
   {
+    "id": "weekly",
     "name": "Weekly Report",
     "desc": "This is a little Angular website I made to track my hours for internships.",
     "repo": "https://github.com/funniray/AngularForm",
     "screenshot": "weekly.png"
+  },
+  {
+    "id": "BanBot",
+    "name": "BanBot",
+    "desc": "A small Minecraft plugin that integrates with BanManager and Discord",
+    "repo": "https://github.com/funniray/BanBot",
+    "screenshot": "bmdisc.jpg"
   }
 ]
